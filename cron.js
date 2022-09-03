@@ -17,10 +17,10 @@ const scrape = () => {
 				console.log(result);
 				const mensaje =
 					`
-─────⊱◈『❄️ᴀʀᴛɪᴄᴍɪ❄️』◈⊰─────
+───⊱◈『❄️ᴀʀᴛɪᴄᴍɪ❄️』◈⊰───
 ${result}
 By: @Articmi2021
-─────⊱◈『❄️ᴀʀᴛɪᴄᴍɪ❄️』◈⊰─────
+───⊱◈『❄️ᴀʀᴛɪᴄᴍɪ❄️』◈⊰───
 				`
 				const botonera = [
 					[
