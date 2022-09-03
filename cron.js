@@ -32,7 +32,7 @@ By: @Articmi2021
 					[
 						{
 							"text": "Contactanos",
-							"url": `@Articmi2021`
+							"url": `https://t.me/Articmi2021`
 						}
 					]
 				]
