@@ -11,32 +11,28 @@ const scrape = () => {
 			const newLastTweetId = Object.keys(tweets).length > 0 ? tweets[0].id : null;
 			funcionesTweets.saveLastTweetId(newLastTweetId);
 			tweets.forEach(function (tweet) {
-				// const cleaner = limp.substring(0, 300);
-
 				const regex = /(Follow on Instagram:)?( )+(https?:\/\/)?(instagram.com|t.co)\/[A-Za-z0-9\/]+/gm;
 				const str = tweet.texto
 				const result = str.replace(regex, '');
-
-				// const message = limp.replace("Follow on Instagram: https://instagram.com/kinlwu/", "");
 				console.log(result);
 				const mensaje =
 					`
-─────⊱◈『❄️』◈⊰─────
+─────⊱◈『❄️ᴀʀᴛɪᴄᴍɪ❄️』◈⊰─────
 ${result}
-By: Hola mundo
-─────⊱◈『❄️』◈⊰─────
+By: @Articmi2021
+─────⊱◈『❄️ᴀʀᴛɪᴄᴍɪ❄️』◈⊰─────
 				`
 				const botonera = [
 					[
 						{
-							"text": "🌟Contratar bot🌟",
-							"url": `https://www.paypal.me/witheblack834`
+							"text": "🌟Ayudanos Donando🌟",
+							"url": `https://www.paypal.me/beginoftime2003`
 						}
 					],
 					[
 						{
-							"text": `Namso-Gen`,
-							"url": `https://namso-gen.com/`
+							"text": `Contactanos`,
+							"url": `@Articmi2021`
 						}
 					]
 				]
